@@ -1,0 +1,374 @@
+body {
+    margin:0;
+}
+header nav.top-nav {
+    background-color:black;
+    display:flex;  
+    flex-direction:row; 
+    justify-content:space-between; 
+
+}
+header nav.top-nav div.menu-left {
+    display:flex;
+    justify-content:flex-start;
+     
+    
+}
+header nav.top-nav div.menu-right {
+    display:flex;
+    
+    
+    
+    
+}
+header nav.top-nav div.menu-right a:hover {
+    background-color:rgb(22, 146, 99);
+    color:white;
+}
+
+
+header nav.top-nav a{
+    text-decoration:none;
+    padding:10px;
+    color:white;
+    font-size:1em;
+    
+
+}
+
+header nav.top-nav a:hover {
+    background-color:white;
+    color:black;
+}
+header div.b-pic {
+    background-image: url("background-pic.jpg");
+    background-size:100% 100%;
+    
+    height:500px;
+    position:relative;
+
+}
+header div.b-pic span.text-back {
+    background-color:black;
+    color:white;
+    font-size:2em;
+    padding:10px;
+    position:absolute;
+    top:85%;
+    left:20px;
+
+
+}
+section.sec-team {
+    text-align:center;
+
+}
+section.sec-team h1 {
+    font-size:2em;
+
+}
+section.sec-team div.team {
+    display:flex;
+    flex-flow:row wrap;
+    text-align:center;
+    justify-content:space-between;
+    padding:50px;
+}
+section.sec-cu {
+    position:relative;
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap:30px;
+    padding:20px;
+    padding-top:50px;
+    background-color:rgb(41, 40, 40);
+    justify-content:space-around;
+    padding-bottom:45px;
+    
+    
+
+    
+}
+
+section.sec-cu div.cu-1 {
+    grid-column:1;
+    color:white;
+    
+}
+section.sec-cu div.cu-1 h1 {
+    font-size:2em;
+    
+}
+section.sec-cu div.cu-2 {
+    grid-column:2;
+    background-color:white;
+    height:430px;
+    width:280px;
+    box-shadow:0px 0px 5px;
+
+    
+}
+section.sec-cu div.cu-2 div.cu-4-4 {
+    font-size:1em;
+    font-weight:bold;
+    padding-left:10px;
+    
+
+}
+
+section.sec-cu div.cu-3 {
+    grid-column:3;
+    background-color:white;
+    height:430px;
+    width:280px;
+    box-shadow:0px 0px 5px;
+
+}
+section.sec-cu div.cu-3 div.cu-4-4 {
+    font-size:1em;
+    font-weight:bold;
+    padding-left:10px;
+    
+
+}
+
+section.sec-cu div.cu-4 {
+    grid-column:4;
+    background-color:white;
+    height:430px;
+    width:280px;
+    box-shadow:0px 0px 5px;
+
+}
+section.sec-cu div.cu-4 div.cu-4-4 {
+    font-size:1em;
+    font-weight:bold;
+    padding-left:10px;
+    
+
+}
+section.sec-price {
+    text-align:center;
+
+}
+section.sec-price h1 {
+    font-size:2em;
+}
+section.sec-price div.prices {
+    display:grid;
+    grid-template-columns:400px 400px 400px;
+    justify-content:space-between;
+   padding:50px;
+}
+section.sec-price div.prices div.p-basic {
+    width:380px;
+    border-color:gray;
+    box-shadow:0px 0px 3px;
+    font-size:1em;
+    
+    
+
+}
+section.sec-price div.prices div.p-basic:hover {
+    box-shadow:0px 0px 15px;
+}
+
+section.sec-price div.prices div.p-basic div.basic {
+    background-color:black;
+    color:white;
+    font-size:2em;
+    height:60px;
+    padding-top:30px;
+    
+}
+section.sec-price div.prices div.p-basic div.b-signup {
+    background:lightgray;
+    height:60px;
+    padding-top:30px;
+    position:relative;
+}
+section.sec-price div.prices div.p-basic div.b-signup div {
+    position:absolute;
+    left:34%;
+}
+
+section.sec-price div.prices div.p-basic div.b-signup div a{
+    text-decoration:none;
+    font-size:1.3em;
+    color:white;
+    padding-top:10px;
+    
+}
+#b-s-2 :hover  {
+    background-color:gray;
+    
+}
+.pro {
+    grid-column:2;
+}
+.premium {
+    grid-column:3;
+}
+#pro1 {
+    background-color:rgb(99, 99, 99); 
+}
+section.sec-contact {
+    background-color:rgb(233, 233, 233);
+    display:grid;
+    grid-template-columns:280px 750px;
+    grid-gap:200px;
+    
+
+    
+}
+section.sec-contact div.sec-c-add {
+    padding:30px;
+    padding-top:50px;
+    grid-column:1;
+    
+}
+section.sec-contact span {
+    font-size:2em;
+    
+    
+}
+
+section.sec-contact h1 {
+    font-size: 1.5em;
+
+}
+section.sec-contact div.sec-c-add p {
+    font-size:1.5em;
+    line-height:40px;
+}
+
+section.sec-contact  div.sec-c-form input.contact-s {
+    width:100%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-size:1.5em;
+    height:100%;
+    
+    
+    
+    
+}
+
+section.sec-contact div.sec-c-form {
+    padding:10px;
+    padding-top:30px;
+    margin-top:50px;
+}
+section.sec-contact div.sec-c-form {
+    background-color:white;
+    
+    font-size:1.3em;
+    height:280px;
+    box-shadow:0px 0px 2px;
+    grid-column:2;
+    
+    
+    
+}
+.contact-s-button {
+    background-color:black;
+    color:white;
+    height:40px;
+    width:70px;
+    
+}
+footer {
+    text-align:center;
+    background-color:black;
+    color:white;
+    font-size:1.2em;
+    height:150px;
+    padding-top:50px;
+    
+}
+
+.signup {
+    width:120px;
+    height:30px;
+    background:rgb(58, 128, 99);
+    padding-top:5px;
+    cursor:pointer;
+}
+.signup:hover{
+    background-color: rgb(179, 175, 175);
+}
+
+.icons {
+    padding:10px;
+    padding-left:15px;
+    height:40px;
+    background-color:rgb(23, 139, 105); 
+    margin:5px;
+    cursor:pointer;
+}
+.f-icons {
+    padding-left:20px;
+}
+.icons:hover{
+    background-color:rgb(204, 204, 204);
+    color:black;
+}
+
+.footer {
+     
+    margin-top:10px;
+    margin-bottom:10px
+}
+.circleplus {
+    position:absolute;
+    left:93%;
+    top:95%;
+    
+}
+.circleplus i{
+    background-color:rgb(23, 139, 105);
+    color:white;
+    
+    font-size:1em;
+    padding:20px;
+    border-radius:100%;
+    cursor:pointer;
+}
+.circleplus i:hover {
+    background:gray;
+    color:black;
+}
+.dropdown-hover{
+    position:relative;
+    display:inline-block;
+    cursor:pointer;
+    display:flex;
+}
+.dropdown-hover:hover {
+    background-color:rgb(128, 128, 128);
+    color:black;
+    
+}
+.dropdown-hover:hover .dropdown-content{
+    display:block;
+    z-index:1
+}
+.dropdown-content{
+    display:none;
+    cursor:pointer;
+    color:#000;
+    background-color:rgb(128, 128, 128);
+    position:absolute;
+    top:100%;
+    min-width:160px;
+    margin:0;
+    padding:0;
+}
+.dropdown-content a{ 
+    padding:6px 16px;
+    display:block;
+}
+.dropdown-content a:hover { 
+    background-color:gray;
+    color:black;}
